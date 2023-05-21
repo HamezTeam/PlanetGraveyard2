@@ -25,13 +25,13 @@ namespace Platformer
                 Debug.Log("Build failed");
         }
         
-        [MenuItem("Build/Build macOS")]
+        [MenuItem("Build/Build WebGL")]
         public static void PerformWebGLBuild()
         {
             BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
             buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity" };
             buildPlayerOptions.locationPathName = "build/WebGL";
-            buildPlayerOptions.target = BuildTarget.WebGL;
+            buildPlayerOptions.target = (BuildTarget)20;
             buildPlayerOptions.options = BuildOptions.None;
 
             BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
