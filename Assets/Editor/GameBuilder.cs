@@ -12,7 +12,7 @@ namespace Platformer
             BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
             buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity" };
             buildPlayerOptions.locationPathName = "build/macOS/PlanetGraveyard2.app";
-            buildPlayerOptions.target = BuildTarget.StandaloneOSX;
+            buildPlayerOptions.target = (BuildTarget)9;
             buildPlayerOptions.options = BuildOptions.None;
 
             BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
