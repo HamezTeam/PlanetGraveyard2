@@ -8,6 +8,8 @@ using Platformer.Core;
 
 namespace Platformer.Mechanics
 {
+    /// I did sth!!!!!!!!!!!
+    /// New feature enabled
     /// <summary>
     /// This is the main class used to implement control of the player.
     /// It is a superset of the AnimationController class, but is inlined to allow for any kind of customisation.
