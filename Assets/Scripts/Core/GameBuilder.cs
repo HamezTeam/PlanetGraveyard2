@@ -2,7 +2,7 @@
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
-namespace Platformer
+namespace Core
 {
     public class GameBuilder : MonoBehaviour
     {
